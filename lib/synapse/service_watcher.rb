@@ -4,6 +4,7 @@ require "synapse/service_watcher/ec2tag"
 require "synapse/service_watcher/dns"
 require "synapse/service_watcher/docker"
 require "synapse/service_watcher/zookeeper_dns"
+require "synapse/service_watcher/zookeeper_aurora"
 
 module Synapse
   class ServiceWatcher
