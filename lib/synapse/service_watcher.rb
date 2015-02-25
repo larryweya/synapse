@@ -15,6 +15,7 @@ module Synapse
       'dns' => DnsWatcher,
       'docker' => DockerWatcher,
       'zookeeper_dns' => ZookeeperDnsWatcher,
+      'zookeeper_aurora' => ZookeeperAuroraWatcher,
     }
 
     # the method which actually dispatches watcher creation requests
