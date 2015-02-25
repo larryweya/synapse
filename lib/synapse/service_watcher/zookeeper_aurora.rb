@@ -5,7 +5,7 @@ module Synapse
 
     def validate_discovery_opts
       raise ArgumentError, "invalid discovery method #{@discovery['method']}" \
-        unless @discovery['method'] == 'aurora'
+        unless @discovery['method'] == 'zookeeper_aurora'
       raise ArgumentError, "missing or invalid zookeeper host for service #{@name}" \
         unless @discovery['hosts']
       raise ArgumentError, "invalid zookeeper path for service #{@name}" \
